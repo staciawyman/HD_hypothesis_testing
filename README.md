@@ -8,11 +8,13 @@ It calls test_hyp_annovar.pl repeatedly on files of exonic and regulatory varian
 
 ```./test_hyp_annovar.pl <file of variants> -i <individuals in hypothesis> -p <genotypes to test>```
 
- The program tests each variant for segregation with the families. Porgram is called with:
- 	1. file with genotypes for all individuals for each variant (either exonic or regulatory)
- 	2. individuals to test
- 	3. test pattern 1/1 homozygous, 0/0 not in individual, or 0/1 heterozygous in order of individuals in 2.
- There must be the same number of genotypes as there are individuals to test.
+The program tests each variant for segregation with the families. Porgram is called with:
+
+1. file with genotypes for all individuals for each variant (either exonic or regulatory)
+2. individuals to test
+3. test pattern 1/1 homozygous, 0/0 not in individual, or 0/1 heterozygous in order of individuals in 2.
+
+There must be the same number of genotypes as there are individuals to test.
 
  For example:
 
